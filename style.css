@@ -1,117 +1,471 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nosifer&display=swap');
 
 * {
-  /* border: solid 1px gray; */
+  /* border: solid 2px gray; */
   font-family: 'Lato', sans-serif;
   font-style: normal;
 }
 
-ul {
-  list-style: none;
+.Line {
+  color: red;
+  border: solid 1px red;
 }
 
-.socials {
-  height: 30px;
+@media (min-width: 991px) {
+  ul {
+    list-style: none;
+  }
+
+  .socials {
+    height: 30px;
+  }
+
+  .NavTop {
+    background-color: rgba(53, 53, 53, 0.8);
+    color: white;
+  }
+
+  .Socials {
+    margin-right: 2%;
+  }
+
+  #FirstPage {
+    background-image: url(images/HeaderBackroundblured.jpg);
+  }
+
+  .Call {
+    padding-top: 10%;
+    font-size: 35px;
+    line-height: 100%;
+    margin: 0;
+    color: #ec5242;
+  }
+
+  .IntroText {
+    padding-top: 1.5%;
+    line-height: 100%;
+    background: url(images/HeaderBackround.jpg) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px gray;
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .Reflect {
+    padding-top: 3%;
+    font-size: 14px;
+    line-height: 100%;
+    margin: 0;
+    color: #ec5242;
+  }
+
+  .Date {
+    padding-top: 4%;
+    font-size: 28px;
+    line-height: 100%;
+    margin: 0;
+    color: #ec5242;
+  }
+
+  .Host {
+    padding-top: 1%;
+    padding-bottom: 10%;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 0;
+    color: #ec5242;
+  }
+
+  #Judgements {
+    margin-top: -15px;
+    background-image: url(images/Repeat.jpg);
+  }
+
+  .Judge {
+    margin-top: 2% !important;
+    margin-left: 5px;
+    background-color: rgba(53, 53, 53, 0.6);
+    color: white;
+  }
+  .Aspects {
+    padding-top: 2%;
+    font-size: 24px;
+    color: white;
+  }
+
+  .Planned {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+  }
+
+  .TopSix {
+    text-align: center;
+    padding-left: 3%;
+  }
+
+  .Image {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .Platform {
+    padding-left: 5%;
+    font-size: 20px;
+    color: white;
+  }
+
+  .Console {
+    padding-top: 2%;
+    width: 50px;
+    height: 80px;
+    padding-bottom: 5%;
+  }
+
+  #FooterTop {
+    background-color: rgba(53, 53, 53, 1);
+  }
+
+  .Missions li :hover {
+    border: solid 2px white;
+  }
+
+  .AIntroText {
+    margin-top: 6%;
+    color: #ec5242;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .APara {
+    margin-top: 6%;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .AContact {
+    margin-top: 6%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .AMail {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .ALogo {
+    margin-top: 8%;
+  }
+
+  .ASee {
+    margin-top: 8%;
+    font-size: 25px;
+    text-align: center;
+
+  }
+
+  .ADuviri {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .AImage1 {
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-image: url(images/poe300.jpg);
+    height: 300px;
+  }
+
+  .AImage2 {
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-image: url(images/fortuna300.jpg);
+    height: 300px;
+  }
+
+  .SubText {
+    font-size: 15px;
+    font-weight: 200px;
+  }
+
+  .ANavBottom {
+    color: white;
+    font-size: 13px;
+  }
+
+  #AFooterTop {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: rgba(53, 53, 53, 1);
+  }
+
+  a {
+    color: black !important;
+  }
+
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+}
+  
+@media (max-width: 990px) {
+  .NavTop {
+    display: none;
+  }
+  
+  .NavBottom {
+    display: none !important;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .socials {
+    height: 30px;
+  }
+  
+  .NavTop {
+    background-color: rgba(53, 53, 53, 0.8);
+    color: white;
+  }
+  
+  #FirstPage {
+    background-image: url(images/HeaderBackroundblured.jpg);
+  }
+  
+  .Call {
+    padding-top: 10%;
+    font-size: 35px;
+    line-height: 100%;
+    margin: 0;
+    color: #ec5242;
+  }
+  
+  .IntroText {
+    padding-top: 1.5%;
+    line-height: 100%;
+    background: url(images/HeaderBackround.jpg) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px gray;
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .Reflect {
+    padding-top: 3%;
+    font-size: 14px;
+    line-height: 100%;
+    margin: 0;
+    color: #ec5242;
+  }
+  
+  .Date {
+    padding-top: 4%;
+    font-size: 28px;
+    line-height: 100%;
+    margin: 0;
+    color: #ec5242;
+  }
+  
+  .Host {
+    padding-top: 1%;
+    padding-bottom: 10%;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 0;
+    color: #ec5242;
+  }
+  
+  #Judgements {
+    margin-top: -15px;
+    background-image: url(images/Repeat.jpg);
+  }
+  
+  .Judge {
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: rgba(53, 53, 53, 0.6);
+    color: white;
+  }
+  .Aspects {
+    padding-top: 2%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .Planned {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+  }
+  
+  .Image {
+    padding-bottom: 3%;
+  }
+
+  .Desc {
+    font-size: 13px;
+  }
+  
+  .Platform {
+    padding-left: 5%;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .Console {
+    width: 50px;
+    height: 80px;
+    padding-bottom: 5%;
+  }
+  
+  #FooterTop {
+    background-color: rgba(53, 53, 53, 1);
+  }
+  
+  .Missions li :hover {
+    border: solid 2px white;
+  }
+  
+  .AIntroText {
+    margin-top: 6%;
+    color: #ec5242;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 800;
+  }
+  
+  .APara {
+    margin-top: 6%;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .AContact {
+    margin-top: 6%;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .AMail {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .ALogo {
+    margin-top: 8%;
+  }
+  
+  .ASee {
+    margin-top: 8%;
+    font-size: 25px;
+    text-align: center;
+  
+  }
+  
+  .ADuviri {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  
+  .AImage1 {
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-image: url(images/poe300.jpg);
+    height: 300px;
+  }
+  
+  .AImage2 {
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-image: url(images/fortuna300.jpg);
+    height: 300px;
+  }
+  
+  .SubText {
+    font-size: 15px;
+    font-weight: 200px;
+  }
+  
+  .ANavBottom {
+    color: white;
+    font-size: 13px;
+  }
+  
+  #AFooterTop {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: rgba(53, 53, 53, 1);
+  }
+  
+  a {
+    color: black !important;
+  }
+  
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #FooterTop {
+    display: none;
+  }
+  
+  #FooterBottom {
+    display: none;
+  }
+  
+  .Judge {
+    margin-top: 2% !important;
+  }
 }
 
-.NavTop {
-  background-color: rgba(53, 53, 53, 0.8);
-  color: white;
-}
+@media (max-width: 574px) {
+  .Desc {
+    font-size: 11px;
+    font-weight: 600;
+  }
 
-#FirstPage {
-  background-image: url(images/HeaderBackroundblured.jpg);
-}
-
-.Call {
-  padding-top: 10%;
-  font-size: 35px;
-  line-height: 100%;
-  margin: 0;
-  color: #ec5242;
-}
-
-.IntroText {
-  padding-top: 1.5%;
-  line-height: 100%;
-  background: url(images/HeaderBackround.jpg) center no-repeat;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 1px gray;
-  background-clip: text;
-  text-transform: uppercase;
-  font-size: 48px;
-  font-weight: bold;
-}
-
-.Reflect {
-  padding-top: 3%;
-  font-size: 14px;
-  line-height: 100%;
-  margin: 0;
-  color: #ec5242;
-}
-
-.Date {
-  padding-top: 4%;
-  font-size: 28px;
-  line-height: 100%;
-  margin: 0;
-  color: #ec5242;
-}
-
-.Host {
-  padding-top: 1%;
-  padding-bottom: 10%;
-  font-size: 24px;
-  line-height: 100%;
-  margin: 0;
-  color: #ec5242;
-}
-
-#Judgements {
-  margin-top: -15px;
-  background-image: url(images/Repeat.jpg);
-}
-
-.Judge {
-  margin-left: 5px;
-  background-color: rgba(53, 53, 53, 0.6);
-  color: white;
-}
-.Aspects {
-  padding-top: 2%;
-  margin-bottom: 2%;
-  font-size: 24px;
-  color: white;
-}
-
-.Planned {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  color: white;
-}
-
-.Image {
-  padding-bottom: 3%;
-}
-
-.Platform {
-  padding-left: 5%;
-  font-size: 20px;
-  color: white;
-}
-
-.Console {
-  width: 50px;
-  height: 80px;
-  padding-bottom: 5%;
-}
-
-#FooterTop {
-  background-color: rgba(53, 53, 53, 1);
-}
-
-.Missions li :hover {
-  border: solid 2px white;
+  .Judge {
+    margin-top: 2% !important;
+  }
 }
