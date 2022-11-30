@@ -8,8 +8,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Thinus Capstone</title>
     </head>
-    <body>
+    <body class="BGColor">
+        <!-- col-1 will be used instead of col-xs-1 since bootstrap 5 no longer supports xs screen size -->
         <nav class="navbar-fluid">
+            <div class="MobileMenu hidden">
+                <ul class="MobileNavBottom row col-12 col-sm-12">
+                    <li class="MobilePopup col-3 col-sm-3 offset-1 offset-sm-1"><a href="pages/about.html">About</a></li>
+                    <li class="MobilePopup col-3 col-sm-3 offset-1 offset-sm-1"><a href="index.html">Program</a></li>
+                    <li class="MobilePopup col-3 col-sm-3 offset-1 offset-sm-1"><a href="#">Join</a></li>
+                    <li class="MobilePopup col-3 col-sm-3 offset-1 offset-sm-1"><a href="#">Sponsor</a></li>
+                    <li class="MobilePopup col-3 col-sm-3 offset-1 offset-sm-1"><a href="#">News</a></li>
+                    <li class="MobilePopup col-3 col-sm-3 offset-1 offset-sm-1"><a href="#">Warframe Lore</a></li>
+                </ul>
+            </div>
             <div class="NavTop container-fluid">
                 <ul class="row col-lg-4 col-4 col-sm-4 offset-sm-8">
                     <li class="Socials col-lg-1 col-1 col-sm-1"><img class="socials" src="images/fbicon.png" alt="Facebook Icon"></li>
@@ -21,21 +32,26 @@
             </div>
             <div class="container-fluid">
                 <ul class="NavBottom row col-lg-11 col-11 col-sm-11 offset-1">
-                    <li class="col-lg-1 col-1 col-sm-1"><img class="col-lg-5 col-5 col-sm-5" src="images/lotusIcon.jpg" alt="lotusIcon"></li>
-                    <li class="col-lg-1 col-1 col-sm-1 offset-3"><a href="pages/about.html">About</a></li>
-                    <li class="col-lg-1 col-1 col-sm-1">Program</li>
-                    <li class="col-lg-1 col-1 col-sm-1">Join</li>
-                    <li class="col-lg-1 col-1 col-sm-1">Sponsor</li>
-                    <li class="col-lg-1 col-1 col-sm-1">News</li>
-                    <li class="col-lg-2 col-2 col-sm-2 offset-1">Warframe Lore</li>
+                    <li class="col-lg-1 col-1 col-sm-1"><a href="index.html"><img class="col-lg-5 col-5 col-sm-5" src="images/lotusIcon.jpg" alt="lotusIcon"></a></li>
+                    <li class="Bnav col-lg-1 col-1 col-sm-1 offset-3"><a href="pages/about.html">About</a></li>
+                    <li class="Bnav col-lg-1 col-1 col-sm-1"><a href="index.html">Program</a></li>
+                    <li class="Bnav col-lg-1 col-1 col-sm-1"><a href="#">Join</a></li>
+                    <li class="Bnav col-lg-1 col-1 col-sm-1"><a href="#">Sponsor</a></li>
+                    <li class="Bnav col-lg-1 col-1 col-sm-1"><a href="#">News</a></li>
+                    <li class="Bnav col-lg-2 col-2 col-sm-2 offset-1"><a href="#">Warframe Lore</a></li>
                 </ul>
             </div>
           </nav>
           <section id="FirstPage">
-            <div class="container">
+            <div class="Planets container">
+                <ul class="hamburger col-1 col-sm-1">
+                    <li class="HamLine"></li>
+                    <li class="HamLine"></li>
+                    <li class="HamLine"></li>
+                </ul>
                 <ul class="nav_top">
-                    <li class="Call col-lg-5 col-8 col-sm-8">Wake up Tenno!</li>
-                    <li class="IntroText col-lg-12 col-12 col-sm-12">Top six warframes chosen by the community in 2022</li>
+                    <li class="Call col-lg-5 col-8 col-sm-8">"Wake up Tenno!"</li>
+                    <li class="IntroText col-lg-10 col-12 col-sm-12">Top six warframes chosen by the community in 2022</li>
                     <li class="Reflect col-lg-6 col-11 col-sm-11">Looking back this year on what warframe where the most popular, and looking at why they were placed the way they are.</li>
                     <li class="Date col-lg-5 col-12 col-sm-12">01 January 2022 - 31 December 2022</li>
                     <li class="Host col-lg-6 col-12 col-sm-12">Ordis is...in despair...PLEASED, to host this!</li>
@@ -44,64 +60,41 @@
           </section>
           <section id="Judgements">
             <ul class="Program">
-                <li class="Aspects col-lg-4 offset-lg-4 col-8 col-sm-8 offset-sm-2 offset-2">Aspect that each warframe was judged on evenly</li>
+                <li class="Aspects col-lg-4 offset-lg-4 col-8 col-sm-8 offset-sm-2 offset-2">Aspect that each warframe was judged on</li>
                 <div class="col-lg-2 offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"><hr class="Line col-lg-2 offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"></div>
-                <li class="Missions col-lg-12 col-12 col-sm-12"><ul class="row col-lg-11 col-11 col-sm-11">
-                    <li class="Judge col-lg-2 offset-lg-1 col-10 col-sm-10"><h2>Eidolon Hunts</h2><p>Ordis has..stalked you...ANALIZED the operators hunts. Oh if only Ordis had a body.</p></li>
-                    <li class="Judge col-lg-2 col-10 col-sm-10"><h2>Arbitrations</h2><p>Ordis thinks that the operator has...wasted time...INVESTED a lot in farming vitus essence.</p></li>
-                    <li class="Judge col-lg-2 col-10 col-sm-10"><h2>Normal Star Chart</h2><p>The Lotus must be so proud of the operator, maybe Ordis will meet a similar fate someday.</p></li>
-                    <li class="Judge col-lg-2 col-10 col-sm-10"><h2>Steelpath Star Chart</h2><p>Operator we can not let Teshin be forgotten. QUITE NOW...Carry out his dream.</p></li>
-                    <li class="Judge col-lg-2 col-10 col-sm-10"><h2>Archon Hunts</h2><p>Ordis thinks the operator looks...like a porcupine...SPLENDID with the shards installed .</p></li>
+                <li class="Missions col-lg-12"><ul class="row col-lg-11">
+                    <li class="Judge col-lg-2 offset-lg-1"><h2 class="col-lg-12 col-4 col-sm-4">Eidolon Hunts</h2><p class="col-lg-12 col-1 col-sm-1">Ordis has..stalked you...ANALIZED the operators hunts. Oh if only Ordis had a body.</p></li>
+                    <li class="Judge col-lg-2"><h2 class="col-lg-12">Arbitrations</h2><p class="col-lg-12">Ordis thinks that the operator has...wasted time...INVESTED a lot in farming vitus essence.</p></li>
+                    <li class="Judge col-lg-2"><h2 class="col-lg-12">Normal Star Chart</h2><p class="col-lg-12">The Lotus must be so proud of the operator, maybe Ordis will meet a similar fate someday.</p></li>
+                    <li class="Judge col-lg-2"><h2 class="col-lg-12">Steelpath Star Chart</h2><p class="col-lg-12">Operator we can not let Teshin be forgotten. QUITE NOW...Carry out his dream.</p></li>
+                    <li class="Judge col-lg-2"><h2 class="col-lg-12">Archon Hunts</h2><p class="col-lg-12">Ordis thinks the operator looks...like a porcupine...SPLENDID with the shards installed .</p></li>
                 </ul></li>
-                <li class="Planned col-lg-4 offset-lg-4 col-10 offset-1 col-sm-10 offset-sm-1">SEE WHAT ORDIS HAS PLANNED FOR THE OPERATOR</li>
+                <li class="PlannedU col-lg-4 offset-lg-4 col-10 offset-1 col-sm-10 offset-sm-1"><u>SEE WHAT ORDIS HAS PLANNED FOR THE OPERATOR</u></li>
             </ul>
+                <ul class="MobileProgram">
+                    <li class="Aspects col-lg-4 offset-lg-4 col-8 col-sm-8 offset-sm-2 offset-2">Aspect that each warframe was judged on</li>
+                    <div class=" offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"><hr class="Line offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"></div>
+                    <li class="Missions col-lg-12 col-12 col-sm-12"><ul class="row col-lg-11 col-12 col-sm-12">
+                        <li class="Judge row col-12 col-sm-12"><h2 class="col-4 col-sm-4">Eidolon Hunts</h2><p class="col-8 col-sm-8">Ordis has..stalked you...ANALIZED the operators hunts. Oh if only Ordis had a body.</p></li>
+                        <li class="Judge row col-12 col-sm-12"><h2 class="col-4 col-sm-4">Arbitrations</h2><p class="col-8 col-sm-8">Ordis thinks that the operator has...wasted time...INVESTED a lot in farming vitus essence.</p></li>
+                        <li class="Judge row col-12 col-sm-12"><h2 class="col-4 col-sm-4">Normal Star Chart</h2><p class="col-8 col-sm-8">The Lotus must be so proud of the operator, maybe Ordis will meet a similar fate someday.</p></li>
+                        <li class="Judge row col-12 col-sm-12"><h2 class="col-4 col-sm-4">Steelpath Star Chart</h2><p class="col-8 col-sm-8">Operator we can not let Teshin be forgotten. QUITE NOW...Carry out his dream.</p></li>
+                        <li class="Judge row col-12 col-sm-12"><h2 class="col-4 col-sm-4">Archon Hunts</h2><p class="col-8 col-sm-8">Ordis thinks the operator looks...like a porcupine...SPLENDID with the shards installed .</p></li>
+                    </ul></li>
+                <li class="Planned col-lg-4 offset-lg-4 col-8 offset-2 col-sm-8 offset-sm-2">SEE WHAT ORDIS HAS PLANNED FOR THE OPERATOR</li>
+                </ul>
           </section>
-          <section id="FeaturedSpeakers">
-            <h2 class="TopSix col-lg-4 offset-lg-4 col-8 col-sm-8 offset-sm-3 offset-3">Top six used warframes</h2>
-            <div class="col-lg-2 offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"><hr class="Line col-lg-2 offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"></div>
-            <ul class="nav_top row col-lg-12 col-12 col-sm-12">
-                <li class="Image col-lg-5 col-12 col-sm-12 offset-lg-1 row"> <img class="col-lg-5 col-5 col-sm-5" src="images/wukong.jpg" alt="wukong">
-                    <ul class="nav_top col-lg-6 col-6 col-sm-7">
-                    <li><h2 class="col-lg-12 col-12 col-sm-12">Wukong</h2></li>
-                    <li><p class="Desc col-lg-12 col-12 col-sm-12">With wukongs celestial twin, he is able to cover both melee and ranged attacks and his cloud walk makes him unstopable when it comes to spy missions.</p></li>
-                </ul></li>
-                <li class="Image col-lg-5 col-12 col-sm-12 row"> <img class="col-lg-5 col-5 col-sm-5" src="images/volt.jpg" alt="volt">
-                    <ul class="nav_top col-lg-7 col-7 col-sm-7">
-                    <li><h2 class="col-lg-12 col-12 col-sm-12">Volt</h2></li>
-                    <li><p class="Desc col-lg-12 col-12 col-sm-12">Speed, damage, nuking and tanking...what more do I need to say.</p></li>
-                </ul></li>
-                <li class="Image col-lg-5 col-12 col-sm-12 offset-lg-1 row"> <img class="col-lg-5 col-5 col-sm-5" src="images/wisp.jpg" alt="wisp">
-                    <ul class="nav_top col-lg-7 col-7 col-sm-7">
-                    <li><h2 class="col-lg-12 col-12 col-sm-12">wisp</h2></li>
-                    <li><p class="Desc col-lg-12 col-12 col-sm-12">Need to be healed, Wisp has your back. Need speed, Wisp has your back. Need electric damage, Wisp has your back. Need to be teleported, Wisp does not have your back. So selfish.</p></li>
-                </ul></li>
-                <li class="Image col-lg-5 col-12 col-sm-12 row"> <img class="col-lg-5 col-5 col-sm-5" src="images/Baruuk.jpg" alt="Baruuk">
-                    <ul class="nav_top col-lg-7 col-7 col-sm-7">
-                    <li><h2 class="col-lg-12 col-12 col-sm-12">Baruuk</h2></li>
-                    <li><p class="Desc col-lg-12 col-12 col-sm-12">Corpus, Grineer, Infested, Corrupted, you name it, Brauuk has you covered, with his adaptive elemental damage he is ready for everything and everyone.Such a gental soul.</p></li>
-                </ul></li>
-                <li class="Image col-lg-5 col-12 col-sm-12 offset-lg-1 row"> <img class="col-lg-5 col-5 col-sm-5" src="images/mirage.jpg" alt="mirage">
-                    <ul class="nav_top col-lg-7 col-7 col-sm-7">
-                    <li><h2 class="col-lg-12 col-12 col-sm-12">mirage</h2></li>
-                    <li><p class="Desc col-lg-12 col-12 col-sm-12">If damage negation and increased damage dealt is not enough...just summon a few clones and your good to go.She has a dico ball thats fun too, maybe not for the enemy but meh...</p></li>
-                </ul></li>
-                <li class="Image col-lg-5 col-12 col-sm-12 row"> <img class="col-lg-5 col-5 col-sm-5" src="images/saryn.jpg" alt="saryn">
-                    <ul class="nav_top col-lg-7 col-7 col-sm-7">
-                    <li><h2 class="col-lg-12 col-12 col-sm-12">saryn</h2></li>
-                    <li><p class="Desc col-lg-12 col-12 col-sm-12">Saryn is not someone to be reckoned with. With her spores seeking enemies, making then take extra damage and miasma reducing their armor. Not a gril whos heart you want to break.</p></li>
-                </ul></li>
-            </ul>
-          </section>
+          <h2 class="More col-10 col-sm-10 offset-1 offset-sm-1">View More</h2>
           <section id="FooterTop">
             <div class="nav_top col-lg-12 col-12 col-sm-12">
                 <div class="Platform col-lg-2 col-2 col-sm-2 offset-5">Platforms</div>
                 <div class="col-lg-2 offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"><hr class="Line col-lg-2 offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"></div>
                 <ul class="nav_top row col-lg-12 col-12 col-sm-12">
-                    <li class="col-lg-2 col-2 col-sm-2 offset-1"><img class="Console col-lg-5 col-5 col-sm-5" src="images/PC.jpg" alt="PC"></li>
-                    <li class="col-lg-2 col-2 col-sm-2"><img class="Console col-lg-5 col-5 col-sm-5" src="images/PS4.jpg" alt="PS4"></li>
-                    <li class="col-lg-2 col-2 col-sm-2"><img class="Console col-lg-5 col-5 col-sm-5" src="images/PS5.jpg" alt="PS5"></li>
-                    <li class="col-lg-2 col-2 col-sm-2"><img class="Console col-lg-5 col-5 col-sm-5" src="images/xboxone.jpg" alt="xboxone"></li>
-                    <li class="col-lg-2 col-2 col-sm-2"><img class="Console col-lg-5 col-5 col-sm-5" src="images/seriesx.jpg" alt="seriesx"></li>
+                    <li class="col-lg-2 offset-1"><img class="Console col-lg-9" src="images/PC.jpg" alt="PC"></li>
+                    <li class="col-lg-2"><img class="Console col-lg-9" src="images/PS4.jpg" alt="PS4"></li>
+                    <li class="col-lg-2"><img class="Console col-lg-9" src="images/PS5.jpg" alt="PS5"></li>
+                    <li class="col-lg-2"><img class="Console col-lg-9" src="images/xboxone.jpg" alt="xboxone"></li>
+                    <li class="col-lg-2"><img class="Console col-lg-9" src="images/seriesx.jpg" alt="seriesx"></li>
                 </ul>
             </div>
           </section>
@@ -115,6 +108,6 @@
             </div>
           </section>
       <script src="script.js"></script>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <script src="javascript.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </body>
 </html>
