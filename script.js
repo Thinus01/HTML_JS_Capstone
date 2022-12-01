@@ -1,17 +1,13 @@
 const HamLine1 = document.querySelector('.HamLine1');
 const HamLine2 = document.querySelector('.HamLine2');
 const HamLine3 = document.querySelector('.HamLine3');
-const Change1 = document.querySelector('.Change1');
-const Change2 = document.querySelector('.Change2');
-const Change3 = document.querySelector('.Change3');
 const mobileMenu = document.querySelector('.MobileMenu');
 const hamburgerButton = document.querySelector('.hamburger');
-const hidden = document.querySelector('.hidden');
 const judgements = document.querySelector('#Judgements');
 const section = document.createElement('section');
 judgements.appendChild(section);
 
-  section.innerHTML =`
+section.innerHTML = `
   <section id="FeaturedSpeakers">
   <h2 class="TopSix col-lg-3 offset-lg-4 col-8 col-sm-8 offset-sm-3 offset-3">Top six used warframes</h2>
   <div class="col-lg-2 offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"><hr class="Line col-lg-2 offset-lg-5 col-2 col-sm-2 offset-sm-5 offset-5"></div>
@@ -80,6 +76,3 @@ hamburgerButton.addEventListener('click', () => {
   HamLine2.classList.toggle('Change2');
   HamLine3.classList.toggle('Change3');
 });
-
-
-
