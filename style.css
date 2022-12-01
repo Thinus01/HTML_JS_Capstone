@@ -320,11 +320,41 @@
     padding-top: 25px;
   }
 
-  .HamLine {
+  .HamLine1 {
     margin-top: 10px;
     margin-top: 15%;
     border: solid 3px black;
     width: 30px;
+    transition: all 50ms;
+  }
+
+  .HamLine2 {
+    margin-top: 10px;
+    margin-top: 15%;
+    border: solid 3px black;
+    width: 30px;
+    transition: all 50ms;
+  }
+
+  .HamLine3 {
+    margin-top: 10px;
+    margin-top: 15%;
+    border: solid 3px black;
+    width: 30px;
+    transition: all 50ms;
+  }
+  
+  .Change1 {
+    transform: rotate(45deg);
+  }
+
+  .Change2 {
+    transform: scale(0, 0);
+  }
+
+  .Change3 {
+    transform: rotate(-45deg);
+    margin-top: -16px;
   }
 
   .MobileMenu {
@@ -611,6 +641,13 @@
   
   .Judge {
     margin-top: 2% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .Change3 {
+    transform: rotate(-45deg);
+    margin-top: -13px;
   }
 }
 
