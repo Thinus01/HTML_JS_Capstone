@@ -22,6 +22,11 @@
   background-attachment: fixed;
 }
 
+.nav_top h3 {
+  color: orangered;
+  font-size: 13px;
+}
+
 @media (min-width: 991px) {
   ul {
     list-style: none;
@@ -106,7 +111,7 @@
   }
 
   .Program {
-    background-image: url(images/Repeat.jpg);
+    background-image: url(images/bg-dark.png);
   }
 
   .MobileProgram {
@@ -403,7 +408,7 @@
   }
 
   .MobileProgram {
-    background-image: url(images/Repeat.jpg);
+    background-image: url(images/bg-dark.png);
     padding-bottom: 10%;
   }
 
