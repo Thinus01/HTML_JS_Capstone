@@ -124,6 +124,7 @@
     background-color: rgba(53, 53, 53, 0.6);
     color: white;
   }
+  
   .Aspects {
     padding-top: 2%;
     font-size: 24px;
@@ -310,7 +311,7 @@
     display: none;
   }
 }
-  
+
 @media (max-width: 990px) {
   .NavTop {
     display: none;
@@ -366,28 +367,28 @@
     font-size: 20px;
     font-weight: 400;
   }
-  
+
   .NavBottom {
     display: none !important;
   }
-  
+
   ul {
     list-style: none;
   }
-  
+
   .socials {
     height: 30px;
   }
-  
+
   .NavTop {
     background-color: rgba(53, 53, 53, 0.8);
     color: white;
   }
-  
+
   #FirstPage {
     background-image: url(images/HeaderBackroundblured.jpg);
   }
-  
+
   .Call {
     padding-top: 10%;
     font-size: 35px;
@@ -395,7 +396,7 @@
     margin: 0;
     color: #ec5242;
   }
-  
+
   .IntroText {
     padding-top: 1.5%;
     padding-bottom: 10%;
@@ -409,14 +410,14 @@
     font-size: 48px;
     font-weight: bold;
   }
-  
+
   .Reflect {
     padding-top: 3%;
     font-size: 14px;
     line-height: 100%;
     margin: 0;
   }
-  
+
   .Date {
     padding-top: 4%;
     font-size: 28px;
@@ -424,7 +425,7 @@
     margin: 0;
     font-weight: 900;
   }
-  
+
   .Host {
     padding-top: 1%;
     padding-bottom: 25%;
@@ -432,7 +433,7 @@
     line-height: 100%;
     margin: 0;
   }
-  
+
   #Judgements {
     margin-top: -15px;
   }
@@ -445,19 +446,20 @@
   .Program {
     display: none;
   }
-  
+
   .Judge {
     margin-top: 2%;
     background-color: rgba(53, 53, 53, 0.6);
     color: white;
   }
+
   .Aspects {
     padding-top: 5%;
     margin-bottom: 2%;
     font-size: 24px;
     color: white;
   }
-  
+
   .Planned {
     text-align: center;
     margin-top: 10%;
@@ -471,7 +473,7 @@
   .PlannedU {
     display: none;
   }
-  
+
   #FeaturedSpeakers {
     display: none;
   }
@@ -490,23 +492,19 @@
   .Desc {
     font-size: 13px;
   }
-  
+
   .Platform {
     padding-left: 5%;
     font-size: 20px;
     color: white;
   }
-  
+
   .Console {
     width: 50px;
     height: 80px;
     padding-bottom: 5%;
   }
-  
-  #FooterTop {
-    background-color: rgba(53, 53, 53, 1);
-  }
-  
+
   .Missions li :hover {
     border: solid 2px white;
   }
@@ -522,7 +520,7 @@
     margin: 0;
     color: #ec5242;
   }
-  
+
   .AIntroText {
     margin-top: 6%;
     color: #ec5242;
@@ -530,7 +528,7 @@
     text-align: center;
     font-weight: 800;
   }
-  
+
   .APara {
     margin-top: 6%;
     font-size: 13px;
@@ -538,36 +536,36 @@
     padding: 2%;
     border: solid 1px rgba(95, 95, 95, 0.2);
   }
-  
+
   .AContact {
     margin-top: 6%;
     font-size: 16px;
     text-align: center;
   }
-  
+
   .AMail {
     font-size: 18px;
     text-align: center;
     font-weight: 600;
   }
-  
+
   .ALogo {
     margin-top: 8%;
   }
-  
+
   .ASee {
     margin-top: 8%;
     font-size: 25px;
     text-align: center;
   
   }
-  
+
   .ADuviri {
     font-size: 15px;
     text-align: center;
     margin-bottom: 5%;
   }
-  
+
   .AImage1 {
     font-size: 27px;
     font-weight: 700;
@@ -580,7 +578,7 @@
     background-image: url(images/poe300.jpg);
     height: 300px;
   }
-  
+
   .AImage2 {
     font-size: 27px;
     font-weight: 700;
@@ -593,12 +591,12 @@
     background-image: url(images/fortuna300.jpg);
     height: 300px;
   }
-  
+
   .SubText {
     font-size: 15px;
     font-weight: 200px;
   }
-  
+
   .ANavBottom {
     color: white;
     font-size: 13px;
@@ -607,7 +605,7 @@
   #AFooterTop {
     display: none;
   }
-  
+
   #MobileAFooterTop {
     padding-top: 3%;
     padding-bottom: 2%;
@@ -621,24 +619,24 @@
   .Ninjas {
     padding-top: 5vw;
   }
-  
+
   a {
     color: orangered !important;
   }
-  
+
   a:link {
     color: orangered;
     text-decoration: none;
   }
-  
+
   #FooterTop {
     display: none;
   }
-  
+
   #FooterBottom {
     display: none;
   }
-  
+
   .Judge {
     margin-top: 2% !important;
   }
@@ -673,7 +671,7 @@
     background-image: url(images/poe300.jpg);
     height: 300px;
   }
-  
+
   .AImage2 {
     font-size: 27px;
     font-weight: 700;
