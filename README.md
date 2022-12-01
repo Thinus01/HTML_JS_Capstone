@@ -100,9 +100,9 @@ To get a local copy up and running, follow these steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](@Thinus01)
-- Twitter: [@twitterhandle](https://twitter.com/thinus_v_d_v)
-- LinkedIn: [LinkedIn](LinkedIn:https://www.linkedin.com/in/thinus-van-de-venter-99aa26203/)
+- GitHub: [@Thinus01](@Thinus01)
+- Twitter: [@twitter](https://twitter.com/thinus_v_d_v)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/thinus-van-de-venter-99aa26203/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
