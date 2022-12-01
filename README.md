@@ -80,7 +80,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://thinus01.github.io/Desktop_Portfolio/)
+- [Live Demo Link](https://thinus01.github.io/HTML_JS_Capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
