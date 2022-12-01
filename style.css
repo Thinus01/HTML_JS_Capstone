@@ -627,10 +627,6 @@
   #FooterBottom {
     display: none;
   }
-
-  .Judge {
-    margin-top: 2% !important;
-  }
 }
 
 @media (max-width: 767px) {
