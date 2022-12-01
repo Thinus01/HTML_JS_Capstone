@@ -76,7 +76,6 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-stroke: 1px gray;
-    background-clip: text;
     text-transform: uppercase;
     font-size: 48px;
     font-weight: bold;
@@ -124,7 +123,7 @@
     background-color: rgba(53, 53, 53, 0.6);
     color: white;
   }
-  
+
   .Aspects {
     padding-top: 2%;
     font-size: 24px;
@@ -185,10 +184,6 @@
     margin-bottom: 3%;
   }
 
-  .Missions li :hover {
-    border: solid 2px white;
-  }
-
   .Missions h2 {
     color: orangered;
   }
@@ -234,7 +229,6 @@
     margin-top: 8%;
     font-size: 25px;
     text-align: center;
-
   }
 
   .ADuviri {
@@ -271,7 +265,7 @@
 
   .SubText {
     font-size: 15px;
-    font-weight: 200px;
+    font-weight: 200;
   }
 
   .ANavBottom {
@@ -301,6 +295,10 @@
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+
+  .Missions li :hover {
+    border: solid 2px white;
   }
 
   #MobileAFooterTop {
@@ -344,7 +342,7 @@
     width: 30px;
     transition: all 50ms;
   }
-  
+
   .Change1 {
     transform: rotate(45deg);
   }
@@ -380,11 +378,6 @@
     height: 30px;
   }
 
-  .NavTop {
-    background-color: rgba(53, 53, 53, 0.8);
-    color: white;
-  }
-
   #FirstPage {
     background-image: url(images/HeaderBackroundblured.jpg);
   }
@@ -405,7 +398,6 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-stroke: 1px gray;
-    background-clip: text;
     text-transform: uppercase;
     font-size: 48px;
     font-weight: bold;
@@ -557,7 +549,6 @@
     margin-top: 8%;
     font-size: 25px;
     text-align: center;
-  
   }
 
   .ADuviri {
@@ -594,7 +585,7 @@
 
   .SubText {
     font-size: 15px;
-    font-weight: 200px;
+    font-weight: 200;
   }
 
   .ANavBottom {
@@ -653,10 +644,6 @@
   .Desc {
     font-size: 11px;
     font-weight: 600;
-  }
-
-  .Judge {
-    margin-top: 2% !important;
   }
 
   .AImage1 {
