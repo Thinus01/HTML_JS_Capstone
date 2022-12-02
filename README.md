@@ -29,11 +29,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [Capstone] <a name="Capstone-Project"></a>
 
 > This is my portfolio made in HTML, CSS and JavaScript. It shows multiple elements that are used between the three languages and how they can be implemented with each other.
 
-**[Desktop_Portfolio]** is a...
+**[HTML, CSS and JavaScript Capstone]** is a...
 
 ## 🛠 Built With <a name="HTML, CSS and JavaScript"></a>
 
@@ -81,6 +81,7 @@
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://thinus01.github.io/HTML_JS_Capstone/)
+- [Project demonstration Link](https://www.loom.com/share/b03a7412219b4f8fa9d0c99ad1913f4c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +146,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Cindy Shin in Behance, for allow me to use het desing as a backbone for my project. There are similar aspects but the desing is unique and not form of plagiarism has been implemented.
+I would like to thank Cindy Shin in Behance, for allow me to use het desing as a backbone for my project. There are similar aspects but the desing is unique and not form of plagiarism has been implemented. You can find the link the the design here: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
