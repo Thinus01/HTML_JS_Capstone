@@ -81,7 +81,7 @@ function featuredFunction() {
     </div>`;
     }
   });
-document.getElementById('WarframeList Show').innerHTML = featureCard;
+  document.getElementById('WarframeList Show').innerHTML = featureCard;
 }
 featuredFunction();
 
