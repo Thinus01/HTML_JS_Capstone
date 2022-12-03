@@ -343,6 +343,15 @@
     padding-bottom: 5%;
   }
 
+  .bordered a {
+    color: orangered !important;
+    border: solid 3px orangered;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
   .Missions li :hover {
     border: solid 2px white;
   }
@@ -368,7 +377,7 @@
   .HamLine1 {
     margin-top: 10px;
     margin-top: 15%;
-    border: solid 3px black;
+    border: solid 3px rgb(84, 84, 84);
     width: 30px;
     transition: all 50ms;
   }
@@ -376,7 +385,7 @@
   .HamLine2 {
     margin-top: 10px;
     margin-top: 15%;
-    border: solid 3px black;
+    border: solid 3px rgb(84, 84, 84);
     width: 30px;
     transition: all 50ms;
   }
@@ -384,9 +393,13 @@
   .HamLine3 {
     margin-top: 10px;
     margin-top: 15%;
-    border: solid 3px black;
+    border: solid 3px rgb(84, 84, 84);
     width: 30px;
     transition: all 50ms;
+  }
+
+  .pos {
+    margin-top: 5px;
   }
 
   .Change1 {
@@ -408,8 +421,12 @@
   }
 
   .MobilePopup {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
+  }
+
+  .off {
+    padding-top: 2%;
   }
 
   .NavBottom {
@@ -711,7 +728,7 @@
 @media (max-width: 767px) {
   .Change3 {
     transform: rotate(-45deg);
-    margin-top: -13px;
+    margin-top: -17px;
   }
 }
 
